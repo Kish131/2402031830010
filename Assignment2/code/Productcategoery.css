@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background-color: #f5f5f5;
+  color: #000;
+}
+
+header {
+  background-color: #d3d3d3;
+  padding: 2rem;
+  text-align: center;
+  font-size: 3rem;
+  font-style: italic;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.category {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.category img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+
+.label {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  font-size: 0.9rem;
+  border-radius: 4px;
+  font-family: 'Georgia', serif;
+}

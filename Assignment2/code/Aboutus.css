@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background-color: #f7faf4;
+  color: #000;
+}
+
+header {
+  background-color: #d3d3d3;
+  padding: 1.5rem;
+  text-align: center;
+  font-size: 2.5rem;
+  font-style: italic;
+}
+
+main {
+  padding: 2rem;
+  text-align: center;
+}
+
+.intro p {
+  font-size: 1.3rem;
+  font-family: 'Georgia', serif;
+  margin-bottom: 2rem;
+}
+
+.divider {
+  border: none;
+  border-top: 1px solid #40634b;
+  margin: 2rem 0;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.product-box {
+  position: relative;
+  width: 300px;
+}
+
+.product-box img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
+}

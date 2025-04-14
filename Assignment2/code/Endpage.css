@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background-color: #f8faf0;
+  color: #1c1c1c;
+}
+
+.top-header {
+  background-color: #dcdcdc;
+  padding: 20px 40px;
+  border-bottom: 1px solid #4c7863;
+}
+
+.logo {
+  font-family: 'Brush Script MT', cursive;
+  font-size: 2.8rem;
+  margin: 0;
+}
+
+.main-content {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.promo-text {
+  font-size: 1rem;
+  margin-bottom: 60px;
+}
+
+blockquote {
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 1.6;
+}
+
+footer {
+  padding: 40px 20px;
+  background-color: #f8faf0;
+  border-top: 1px solid #4c7863;
+}
+
+.footer-logo {
+  font-family: 'Brush Script MT', cursive;
+  font-size: 2.4rem;
+  margin-bottom: 10px;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: #1c1c1c;
+  font-weight: 500;
+}
+
+hr {
+  margin: 20px 0;
+  border: none;
+  border-top: 1px solid #4c7863;
+}
+
+.footer-info {
+  font-size: 0.8rem;
+  color: #444;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.footer-info a {
+  color: #444;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+  font-size: 1.2rem;
+}
+
+.social-icons a {
+  color: #1c1c1c;
+  text-decoration: none;
+}
